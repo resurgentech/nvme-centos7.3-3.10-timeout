@@ -1,3 +1,20 @@
+Module.symvers
+modules.order
+nvme/host/.core.o.cmd
+nvme/host/.nvme.ko.cmd
+nvme/host/.nvme.mod.o.cmd
+nvme/host/.nvme.o.cmd
+nvme/host/.pci.o.cmd
+nvme/host/.scsi.o.cmd
+nvme/host/core.o
+nvme/host/modules.order
+nvme/host/nvme.ko
+nvme/host/nvme.mod.c
+nvme/host/nvme.mod.o
+nvme/host/nvme.o
+nvme/host/pci.o
+nvme/host/scsi.o
+nvme/modules.order
 nvme/.tmp_versions/
 nvme/Module.symvers
 
