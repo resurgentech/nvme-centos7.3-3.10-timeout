@@ -56,8 +56,8 @@
 #define NVME_NR_AEN_COMMANDS	1
 #define NVME_AQ_BLKMQ_DEPTH	(NVME_AQ_DEPTH - NVME_NR_AEN_COMMANDS)
 
-unsigned char admin_timeout = 60;
-module_param(admin_timeout, byte, 0644);
+unsigned int admin_timeout = 60;
+module_param(admin_timeout, int, 0644);
 MODULE_PARM_DESC(admin_timeout, "timeout in seconds for admin commands");
 
 unsigned char nvme_io_timeout = 30;

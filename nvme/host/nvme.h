@@ -32,7 +32,7 @@ enum {
 extern unsigned char nvme_io_timeout;
 #define NVME_IO_TIMEOUT	(nvme_io_timeout * HZ)
 
-extern unsigned char admin_timeout;
+extern unsigned int admin_timeout;
 #define ADMIN_TIMEOUT	(admin_timeout * HZ)
 
 extern unsigned char shutdown_timeout;
